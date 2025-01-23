@@ -19,12 +19,6 @@ This is a React-based e-commerce application that mimics an online shopping expe
 - **Enhanced User Experience**: Dialogs and messages for better user interaction.
 - **State Management**: Custom hooks and context for state sharing across components.
 
-### Bonus Features
-
-- Search functionality for quick product discovery.
-- Product sorting for better user experience.
-- Custom animations and UI enhancements.
-
 ## Tech Stack
 
 - **Frontend**: React, SCSS, Material-UI (for dialogs and buttons).
@@ -105,6 +99,9 @@ The app has been deployed on AWS. You can access the live version [here](https:/
 - Implement user reviews for products.
 - Improve search and sorting functionalities.
 - Optimize API calls with caching.
+- Search functionality for quick product discovery.
+- Product sorting for better user experience.
+- Custom animations and UI enhancements.
 
 ## Author
 
