@@ -1,0 +1,56 @@
+.Login {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.Login-container {
+  width: 300px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.login-form {
+  display: grid;
+  grid-row: 1fr 1fr;
+}
+.email {
+  font-size: var(--small);
+  font-weight: bold;
+  color: var(--black);
+  margin-bottom: 0.8rem;
+  font-family: "Quicksand", sans-serif;
+}
+.password {
+  font-size: var(--small);
+  font-weight: bold;
+  color: var(--black);
+  margin-bottom: 0.8rem;
+  font-family: "Quicksand", sans-serif;
+}
+.input {
+  background-color: var(--text-input-field);
+  border: none;
+  border-radius: 0.8rem;
+  height: 3.6rem;
+}
+.input-email {
+  margin-bottom: 2rem;
+}
+.input-password {
+  margin-bottom: 2.8rem;
+}
+.primary-button {
+  background-color: var(--hospital-green);
+  border: none;
+  border-radius: 0.8rem;
+  height: 5.6rem;
+  font-size: var(--medium);
+}
+.forgot-password {
+  font-family: "Quicksand", sans-serif;
+  font-size: var(--small);
+  color: var(--hospital-green);
+  margin-top: 2.8rem;
+  margin-bottom: 2.8rem;
+  text-align: center;
+}

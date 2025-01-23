@@ -1,0 +1,81 @@
+.MobileMenu {
+  position: absolute;
+  background-color: var(--white);
+  top: 5rem;
+  left: 3rem;
+  padding: 2rem;
+  border: 1px solid var(--very-light-pink);
+  border-radius: 6px;
+  z-index: 2;
+}
+.MobileMenu div {
+  margin-bottom: 1.2rem;
+}
+.MobileMenu a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: bold;
+  font-size: var(--small);
+  cursor: pointer;
+}
+.MobileMenuList {
+  height: 50%;
+  border-bottom: 1px solid var(--very-light-pink);
+}
+.Categories {
+  font-family: "Quicksand", sans-serif;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: var(--very-light-pink);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.Categories li {
+  margin-bottom: 1rem;
+}
+.other-info-list {
+  height: auto;
+}
+.my-info {
+  height: auto;
+}
+.my-info .primary-list .categories-item p:nth-child(1) {
+  font-family: "Quicksand", sans-serif;
+
+  color: var(--very-light-pink);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.MobileMenu .my-info .primary-list .categories-item #sign-out {
+  font-family: "Quicksand", sans-serif;
+
+  color: var(--hospital-green);
+  font-size: var(--small);
+}
+#my-orders-link {
+  margin-bottom: 0;
+}
+.primary-list {
+  font-family: "Quicksand", sans-serif;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.categories-item {
+  margin-bottom: 0.8rem;
+}
+.other-info-list {
+  height: auto;
+}
+.my-info {
+  height: auto;
+}
+@media (min-width: 641px) {
+  .MobileMenu {
+    display: none;
+  }
+}

@@ -1,0 +1,76 @@
+.main-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-bottom: 1px solid var(--text-input-field);
+    height: 5rem;
+}
+.navbar-left {
+    display: flex;
+}
+.navbar-left div {
+    display: flex;
+    align-items: center;
+}
+.navbar-left ul{
+    margin-left: 3rem;
+}
+.navbar-left ul, .navbar-right ul{
+    font-family: "Quicksand", sans-serif;
+
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navbar-left img{
+    width: 10rem;
+}
+.menu {
+    display: none;
+}
+.navbar-left ul li a, .navbar-right ul li a{
+    text-decoration: none;
+    color: var(--very-light-pink);
+    border: 1px solid var(--white);
+    padding: 0.6rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+.navbar-left ul li a:hover, 
+.navbar-right ul li a:hover{
+    text-decoration: none;
+    color: var(--hospital-green);
+    border: 1px solid var(--hospital-green);
+    border-radius: 0.8rem;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+.nav-bar-email{
+    color: var(--very-light-pink);
+    font-size: 1rem;
+    cursor: pointer;
+}
+.nav-bar-cart{
+    margin-left: 1.6rem;
+    cursor: pointer;
+}
+/* Media querys for the nav bar on the mobile version of the app*/
+@media (max-width: 640px) {
+    .menu{
+        display: block;
+        width: 2.5rem;
+    }
+    .navbar-left ul, .nav-bar-email{
+        display: none;
+    }
+    .navbar-right ul{
+        padding: 0;
+    }
+    .nav-bar-cart {
+        margin: 0;
+    }
+}

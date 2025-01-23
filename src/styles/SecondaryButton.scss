@@ -1,0 +1,21 @@
+.secondary-button {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  background-color: var(--white);
+  border: 0.2rem solid var(--hospital-green);
+  border-radius: 0.8rem;
+  height: 5.6rem;
+  width: 100%;
+  font-size: var(--medium);
+  cursor: pointer;
+  color: var(--hospital-green);
+}
+
+@media (max-width: 640px) {
+  .secondary-button {
+    position: absolute;
+    width: 30rem;
+    bottom: -2.8rem;
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,31 @@
+.ProductInfo {
+  font-family: "Quicksand", sans-serif;
+
+  margin: 1.2rem 1.2rem 0 1.2rem;
+}
+.ProductInfoImage {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 0 0 2rem 2rem;
+  margin-bottom: 0.8rem;
+}
+.ProductInfo p:nth-child(1) {
+  font-family: "Quicksand", sans-serif;
+
+  font-size: var(--small);
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+.ProductInfo p:nth-child(2) {
+  font-size: var(--small);
+  font-weight: 500;
+  color: var(--very-light-pink);
+  margin-bottom: 1.2rem;
+}
+.ProductInfo p:nth-child(3) {
+  font-size: var(--small);
+  font-weight: 300;
+  color: var(--very-light-pink);
+  margin-bottom: 3.2rem;
+}

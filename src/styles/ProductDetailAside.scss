@@ -1,0 +1,48 @@
+.ProductDetailAside {
+  width: 360px;
+  position: absolute;
+  right: 3rem;
+  top: 0;
+  background-color: var(--white);
+  border: 1px solid var(--very-light-pink);
+  border-radius: 6px;
+  padding: 1rem;
+}
+.ProductDetailAsideClose {
+  background: var(--white);
+  position: absolute;
+  top: 1.2rem;
+  left: 1.2rem;
+  padding: 0.8rem;
+  border-radius: 50%;
+  z-index: 2;
+}
+.ProductDetailAsideClose img {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.ProductDetailAsideClose:hover {
+  cursor: pointer;
+}
+.add-to-cart-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondary-button-aside {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  background-color: var(--white);
+  border: 0.2rem solid var(--hospital-green);
+  border-radius: 0.8rem;
+  height: 5.6rem;
+  width: 100%;
+  font-size: var(--medium);
+  cursor: pointer;
+  color: var(--hospital-green);
+}
+@media (max-width: 700px) {
+  .ProductDetailAside {
+    width: calc(100% - 8rem);
+  }
+}

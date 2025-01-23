@@ -1,0 +1,57 @@
+.DesktopMenu {
+  position: absolute;
+  background-color: var(--white);
+  right: 8.4rem;
+  top: 5rem;
+  border: 1px solid var(--very-light-pink);
+  border-radius: 6px;
+  padding: 20px 20px 0 20px;
+  z-index: 2;
+}
+.DesktopMenu .DesktopMenuList {
+  font-family: "Quicksand", sans-serif;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.DesktopMenu .DesktopMenuList li {
+  font-family: "Quicksand", sans-serif;
+
+  text-align: end;
+}
+.DesktopMenu .DesktopMenuList li:nth-child(1),
+.DesktopMenu ul li:nth-child(2) {
+  font-family: "Quicksand", sans-serif;
+
+  font-weight: bold;
+}
+.DesktopMenu .DesktopMenuList li:last-child {
+  font-family: "Quicksand", sans-serif;
+
+  padding-top: 20px;
+  border-top: 1px solid var(--very-light-pink);
+}
+.DesktopMenu .DesktopMenuList li:last-child a {
+  font-family: "Quicksand", sans-serif;
+
+  color: var(--hospital-green);
+}
+.DesktopMenu .DesktopMenuList li a {
+  font-family: "Quicksand", sans-serif;
+
+  color: var(--back);
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.MyAccount {
+  font-family: "Quicksand", sans-serif;
+}
+
+@media (max-width: 641px) {
+  .DesktopMenu {
+    display: none;
+  }
+}

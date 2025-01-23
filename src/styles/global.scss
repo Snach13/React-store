@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("@fonts/Quicksand-Bold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("@fonts/Quicksand-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("@fonts/Quicksand-Light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --dark: #232830;
+  --very-light-pink: #c7c7c7;
+  --text-input-field: #f7f7f7;
+  --hospital-green: #acd9b2;
+  --small: 1.4rem;
+  --medium: 1.6rem;
+  --large: 1.8rem;
+  --desktop-card-width: 24rem;
+  --mobile-card-width: 14rem;
+  --desktop-card-height: 30rem;
+  --mobile-card-height: 28rem;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Quicksand", Georgia, "Times New Roman", Times, serif;
+}
+body {
+  font-family: "Quicksand", Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+}
+.main-container {
+  height: 50vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(4, 7rem);
+  margin-bottom: 2rem;
+  width: 380px;
+  height: 280px;
+  overflow-y: scroll;
+  gap: 1rem 0;
+  padding: 2rem;
+}

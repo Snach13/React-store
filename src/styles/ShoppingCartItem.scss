@@ -1,0 +1,46 @@
+.product-item{
+    font-family: "Quicksand", sans-serif;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+}
+.product-item p{
+    color: var(--black);
+    font-size: var(--small);
+    font-weight: bold;
+}
+.product-info{
+    display: flex;
+    align-items: center;
+}
+.product-info figure{
+    margin: 0;
+}
+.product-info figure img{ 
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+.product-item .product-info  figure + p{
+    margin-left: 1.6rem;
+    color: var(--very-light-pink);
+    font-size: var(--small);
+    font-weight: 500;
+}
+.product-cancelled{
+    display: flex;
+    align-items: center;
+}
+.product-cancelled p{
+    display: flex;
+    align-items: center;
+}
+.product-cancelled figure{
+    height: 14px;
+    width: 14px;
+    margin: 0 0 0 2rem;
+    cursor: pointer;
+}
